@@ -1,0 +1,18 @@
+{
+  "exclude": ["./build", "jest.config.ts", "test"],
+  "ts-node": { "files": true },
+  "compilerOptions": {
+    "target": "ES2020",
+    "lib": ["es6"],
+    "module": "NodeNext",
+    "rootDir": "src",
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "build",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true
+  }
+}
